@@ -4,7 +4,7 @@ from mypkg.my_answers import *
 import numpy as np
 
 arr_ori = np.arange(15)
-arr_1 = reform_array_dimension_col_wise(arr_ori, nRow, nCol)
+arr_1 = reform_array_dimension_col_wise(arr_ori, 3, 5)
 arr_2 = append_sum_of_array(arr_1)
 arr_3 = remove_topRow_endCol_from_array(arr_1)
 arr_4 = add_row_product_to_array(arr_1)
